@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test2
+  description: test2
+  annotations:
+    github.com/project-slug: DmitriyKhirniy/test2
+    backstage.io/techdocs-ref: url:http://github.com/DmitriyKhirniy/test2
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "DmitriyKhirniy"
